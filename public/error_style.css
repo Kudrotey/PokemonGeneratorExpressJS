@@ -1,0 +1,33 @@
+body{
+    background-image: url("images/snorelax.jpeg");
+    background-repeat: no-repeat;
+}
+div {
+    text-align: center; 
+    margin: 0; 
+    position: absolute; 
+    top: 30%; 
+    left: 50%; 
+    -ms-transform: translate(-50%, -60%); 
+    transform: translate(-50%, -60%);
+    font-family: monospace;   
+}
+
+button {
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: monospace;
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    color: #FFCC00;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+
+

@@ -1,0 +1,66 @@
+body{
+    background-image: url("images/pikachu.jpg");
+    background-repeat: no-repeat;
+}
+div {
+    text-align: center; 
+    margin: 0; 
+    position: absolute; 
+    top: 30%; 
+    left: 50%; 
+    -ms-transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+    font-family: monospace;   
+}
+
+input {
+    width: 60%;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none !important;
+    border:2px solid rgb(68, 68, 68);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+button {
+    height: 30px;
+    cursor: pointer;
+}
+
+#searchButton {
+    border-radius: 5px;
+    font-family: monospace;
+    background-color: rgb(63, 63, 63);
+    color: white;
+} 
+
+#randomButton {
+    height: 40px;
+    border-radius: 5px;
+    font-family: monospace;
+    width: 200px;
+    font-size: 18px;
+    background-color: #0075BE;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+    color: #FFCC00;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
