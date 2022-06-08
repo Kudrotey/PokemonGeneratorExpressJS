@@ -14,11 +14,6 @@ app.post("/pokemon", function(req, res) {
 
     const pokemonName = req.body.pokemonSearch.toLowerCase();
 
-    if(pokemonName.length === 0) {
-        res.sendFile(`${__dirname}/error.html`);
-        return
-    }
-
     const url = `https://pokeapi.co/api/v2/pokemon/${pokemonName}`;
 
     https.get(url, function(response) {
