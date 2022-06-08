@@ -4,9 +4,9 @@ A pokemon generator that allows you to search or randomly generate a pokemon usi
 
 ## Run Locally
 
-Run `npm install` to creaete a `node_modules` folder in your local machine
+Run `npm install` in order for the `node_modules` folder to be created on your local machine.
 
-Run `node app.js` or `nodemon app.js` (if you have nodemon package installed in your machine) to start the pokemon generator.
+Run `node app.js` or `nodemon app.js` (if you have nodemon package installed on your machine) to start the pokemon generator.
 
 Listen on `http://localhost:3000/` to see the pokemon generator web app.
 
