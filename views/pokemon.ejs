@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokemon_style.css">
+    <title>Pokemon Generator</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="card">
+            <h3><%= pokemonData.name.toUpperCase() %></h3>
+            <hr>
+            <img src="<%= pokemonData.sprites.front_default %>"/>
+            <hr>
+            <p><%= pokemonData.stats[0].stat.name %> : <%= pokemonData.stats[0].base_stat %></p>
+            <hr>
+            <p><%= pokemonData.stats[1].stat.name %> : <%= pokemonData.stats[1].base_stat %></p>
+            <hr>
+            <p><%= pokemonData.stats[2].stat.name %> : <%= pokemonData.stats[2].base_stat %></p>
+            <hr>
+            <p><%= pokemonData.stats[3].stat.name %> : <%= pokemonData.stats[3].base_stat %></p>
+            <hr>
+            <p><%= pokemonData.stats[4].stat.name %> : <%= pokemonData.stats[4].base_stat %></p>
+            <hr>
+            <p><%= pokemonData.stats[5].stat.name %> : <%= pokemonData.stats[5].base_stat %></p>
+        </div> 
+        <form action="/random_pokemon" method="post">
+            <button id="randomButton" type="submit">Random Pokemon</button>
+        </form>   
+        <button onClick="location.href='/'"><%= backButton %></button>
+    </div>
+</body>
+</html>
